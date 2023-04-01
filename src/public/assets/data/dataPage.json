@@ -1,0 +1,65 @@
+{
+  "title": "Canal Autogestion",
+  "logo": "Logo_Colsubsidio.svg",
+  "banner": [
+    {
+      "title": "Consumo rotativo",
+      "background": "banner1.png",
+      "description": "Ya no tienes excusas para estar protegido o pagar a tiempo tus impuestos. Con Colsubsidio puedes solicitar tu crédito rotativo."
+    }
+  ],
+  "body": {
+    "sections": [
+      {
+        "title": "¿Qué es?",
+        "description": "El crédito rotativo destinado para el pago:",
+        "list": [
+          "De los seguros ofertados por Créditos y Seguros Colsubsidio.",
+          "De los impuestos del afiliado"
+        ],
+        "imgOptions": null
+      },
+      {
+        "title": "Requisitos",
+        "description": "",
+        "list": [
+          "Eres mayor de 18 y menor de 69 años",
+          "Tus ingresos son superiores a un salario mínimo",
+          "Eres afiliado de Colsubsidio.",
+          "Llevas más de 2 meses en tu trabajo. Para contratos diferentes a término indefinido, son seis (6) meses.",
+          "Tienes cédula de ciudadanía.\nRealiza las solicitudes con cédula de extranjería en nuestros canales presenciales."
+        ],
+        "imgOptions": {
+          "img": "check-circle.svg",
+          "imgAlt": "Requisitos"
+        }
+      },
+      {
+        "title": "Destinación",
+        "description": "",
+        "list": [
+          "Asegurar tu vida",
+          "Proteger a tu familia",
+          "Asegurar tu patrimonio",
+          "Pagar tus impuestos"
+        ],
+        "imgOptions": {
+          "img": "check-circle.svg",
+          "imgAlt": "Destino"
+        }
+      },
+      {
+        "title": "Tasa de interés",
+        "description": "",
+        "list": [],
+        "imgOptions": null
+      }
+    ],
+    "informativeBanner": {
+      "title": "Ajustar título: Consulta más información de este producto en el siguiente archivo",
+      "button": {
+        "text": "Descarga documento"
+      }
+    }
+  }
+}

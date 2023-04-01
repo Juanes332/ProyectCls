@@ -1,0 +1,40 @@
+@import "../../../shared/styles/colors";
+@import "../../../shared/styles/breakpoints";
+
+.banner {
+  height: 204px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+
+  @media screen and (min-width: $breakpoint-tablet) {
+    height: 300px;
+    background-position: unset;
+  }
+  @media screen and (min-width: $breakpoint-desktop) {
+    height: 400px;
+  }
+
+  &-content {
+    margin-top: 80px;
+    display: none;
+
+    @media screen and (min-width: $breakpoint-tablet) {
+      display: block;
+    }
+
+    &-title {
+      color: $blanco;
+      @media screen and (min-width: $breakpoint-desktop) {
+        font-weight: bold;
+        font-size: 56px !important;
+        line-height: 62px !important;
+        letter-spacing: -0.5px !important;
+      }
+    }
+
+    p{
+      color: $blanco;
+    }
+  }
+}

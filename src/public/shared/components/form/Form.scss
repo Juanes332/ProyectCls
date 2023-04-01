@@ -1,0 +1,100 @@
+﻿@import "/src/public/shared/styles/colors";
+
+.containerForm{
+    height: 100% ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    gap: 10px;
+    justify-content: space-around;
+}
+.hForm{
+    color: $grafito;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+
+.pForm{
+    color: $grafito;
+    width: 397px;   
+    text-align: center;
+    display: flex;
+
+}
+
+.divTp{
+    height: 100px;
+}
+
+.initialForm{
+    padding-top: 12px;
+    height: 538px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center ;
+    gap: 25px;
+}
+
+.divInput{
+    width: 100%;
+    margin-top: -70px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.spanForm{
+    color: $grafito;
+    display: flex;
+    width: 90%;
+    align-items: left;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px   ;
+
+
+}
+.labelForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.divCheckbox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+    .divImage{
+        margin-bottom: 15px;
+    }
+
+.reCaptcha{
+    box-sizing: border-box;
+    width: 302px;
+    height: 74;
+    border: 1px solid $deshabilitado;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.35);
+    border-radius: 3px;
+
+}
+
+.divButton{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -40px;
+}

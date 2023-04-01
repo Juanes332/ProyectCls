@@ -1,0 +1,25 @@
+@import '../../../shared/styles/colors';
+.checkbox-container{
+    width: 90%;
+    height: 72px;
+    color: $grafito;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+}
+.checkbox-checkbox{
+    width: 100%;
+    display: flex;
+    gap: 6px;
+}
+.checkbox-image{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    border-radius: 4px;            
+    background-size: cover;                       
+}
+.checkbox-text{
+    width: 95%;
+}

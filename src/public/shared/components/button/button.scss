@@ -1,0 +1,21 @@
+﻿@import "/src/public/shared/styles/colors";
+.buttonCls{
+    width: 255px;
+    height: 56px;
+    border-style: none;
+    margin: 5px;
+    &On{
+        background-color: $azul;
+        color: $blanco;
+        border-radius: 4px;
+        cursor: pointer;
+        &:hover{
+            background-color: $azulOscuro;
+        }
+    }
+    &Off{
+        background-color: $deshabilitado;
+        color: $grafito;
+        border-radius: 4px;
+    }
+}

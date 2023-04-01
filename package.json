@@ -1,0 +1,53 @@
+{
+  "name": "proyectocanalautogestion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack:dev": "webpack-dev-server --mode development --static",
+    "webpack:prod": "webpack-dev-server --mode production --static",
+    "build:dev": "webpack --mode development",
+    "build:prod": "webpack --mode production",
+    "node:dev": "nodemon swc-node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "axios": "^1.3.4",
+    "dotenv": "^16.0.3",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.9.0",
+    "swc-loader": "^0.2.3"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.3.42",
+    "@types/react": "^18.0.29",
+    "@types/react-dom": "^18.0.11",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/webpack": "^5.28.0",
+    "@types/webrtc": "^0.0.33",
+    "css-loader": "^6.7.3",
+    "documentation": "^14.0.1",
+    "eslint": "^8.36.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "json-loader": "^0.5.7",
+    "mini-css-extract-plugin": "^2.7.5",
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.22",
+    "sass-loader": "^13.2.1",
+    "source-map-loader": "^4.0.1",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
+  }
+}

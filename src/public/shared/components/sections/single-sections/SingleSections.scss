@@ -1,0 +1,20 @@
+.single-sections {
+  &-list {
+    &-single {
+      margin-bottom: 5px;
+      &-content {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        p {
+          margin: 0 0 0 10px;
+          padding: 0;
+        }
+      }
+      &-text {
+        display: inline;
+        white-space: pre-line
+      }
+    }
+  }
+}

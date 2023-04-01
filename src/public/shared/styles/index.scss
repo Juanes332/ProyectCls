@@ -1,0 +1,158 @@
+﻿@import 'breakpoints';
+@import 'colors';
+@import 'skeleton';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px !important;
+  line-height: 42px;
+  letter-spacing: -0.5px;
+  font-weight: bold;
+  color: $grafito;
+}
+
+h2 {
+  margin: 0;
+  font-size: 26px !important;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  color: $grafito;
+}
+
+h3 {
+  margin: 0;
+  font-size: 24px !important;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: $grafito;
+}
+
+h4 {
+  margin: 0;
+  font-size: 22px !important;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: -0.25px;
+  color: $grafito;
+}
+
+p {
+  font-size: 16px !important;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.25px;
+  color: $grafito;
+}
+
+caption {
+    font-size: 14px !important;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: $grafito;
+}
+
+.margin {
+  &-5{
+    margin: 5px;
+  }
+  &-10{
+    margin: 10px;
+  }
+  &-15{
+    margin: 15px;
+  }
+  &-20{
+    margin: 20px;
+  }
+  &-tp-5{
+    margin-top: 5px;
+  }
+  &-tp-10{
+    margin-top: 10px;
+  }
+  &-tp-15{
+    margin-top: 15px;
+  }
+  &-tp-20{
+    margin-top: 20px;
+  }
+  &-bt-5{
+    margin-bottom: 5px;
+  }
+  &-bt-10{
+    margin-bottom: 10px;
+  }
+  &-bt-15{
+    margin-bottom: 15px;
+  }
+  &-bt-20{
+    margin-bottom: 20px;
+  }
+  &-lt-5{
+    margin-left: 5px;
+  }
+  &-lt-10{
+    margin-left: 10px;
+  }
+  &-lt-15{
+    margin-left: 15px;
+  }
+  &-lt-20{
+    margin-left: 20px;
+  }
+  &-rt-5{
+    margin-right: 5px;
+  }
+  &-rt-10{
+    margin-right: 10px;
+  }
+  &-rt-15{
+    margin-right: 15px;
+  }
+  &-rt-20{
+    margin-right: 20px;
+  }
+}
+
+.primary {
+  &-color {
+    //color: $primary !important;
+  }
+  &-background {
+    //background-color: $primary !important;
+  }
+}
+
+.secondary {
+  &-color {
+    //color: $secondary !important;
+  }
+  &-background {
+    //background-color: $secondary !important;
+  }
+}
+
+.complementary {
+  &-color {
+    //color: $complementary !important;
+  }
+  &-background {
+    //background-color: $complementary !important;
+  }
+}
